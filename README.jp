@@ -46,7 +46,7 @@ hiraganafuckのソースはその形態上、1番目のひらがながどのbrai
 
 "+あいうえおかきくけこ"　こんな感じになります。
 
--- 使い方上記の形式に従ったソースコードを書きます
+-- 使い方 --
 1. hiraganafuck_editor.rbなりテキストエディタなりを使って上記の形式に従ったソースコードを書きます
 2. "ruby hiragana_bf_main.rb source_file_name"と実行すると"tmp.bfk"というファイルが作成されます（といいな）。
 3. きちんとbrainfuckの規則に従っていれば./brainfuckにおいて"ruby main.rb ../tmp.bfk"とすることでめでたく動く（はず）
