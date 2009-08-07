@@ -2,9 +2,7 @@ $KCODE="UTF8"
 require "lib/hiragana_bf_converter"
 
 hb_converter = HiraganaBrainfuckConverter.new("hira_trans_p.yml", "bf_trans_p.yml")
-
 source_name = ARGV.shift
-
 bf_text = nil
 
 File.open(source_name) do |source_file|

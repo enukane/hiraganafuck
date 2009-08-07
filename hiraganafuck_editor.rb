@@ -84,6 +84,9 @@ while flag do
 			 file.flush
 		 end
 		 p "Source written to file"
+	 when "load"
+		 p "not implemented but coming soon.... maybe"
+		 break
 	 when "exit"
 		 p "exiting"
 		 flag = false
