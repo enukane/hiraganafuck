@@ -8,7 +8,7 @@ As a language, converted in hiragana, we can find some tendency in the stream of
 And this idea can be also apliable for brainfuck source code; that consisted of 8 characters.
 
 The tables of transistion probabilities shows "what characters can come next?".
-hiraganafuck uses this tables to dynamically change the bindings between "hiragana character" and "function" 
+hiraganafuck uses this tables to dynamically change the bindings between "hiragana character" and "function" that it represents/
 
 (to be continued)
 
