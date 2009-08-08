@@ -18,9 +18,9 @@ hiraganafuck
 
 以上のようなデータや仕組みを用いてhiraganafuckでは以下のようにhelloworldプログラム(./helloworld.hfk)を書けます。
 *=======*
-あるところにおいて,さめよりはしんとして,そそうのないますがいまし,つちのなかにだけいろといっきだしで,
-	どにちをかいたきをければ,めがてをぶつので,ありのかしたかにひをさしたが,いのいたみわたのしいので,
-	すでできのめろんともちをえほんにしました.とめがすむ.
++あるところにおいて,さめよりはしんとして,そそうのないますがいまし,つちのなかにだけいろといっきだしで,
+どにちをかいたきをければ,めがてをぶつので,ありのかしたかにひをさしたが,いのいたみわたのしいので,
+すでできのめろんともちをえほんにしました.とめがすむ.
 *======*
 漢字も交えると、「ある所において、鮫よりはしんとして、粗相のない鱒が居まし、土の中にだけ居ろと一気だしで、
 土日を書いた木を蹴れば、目が手をぶつので、蟻の貸した蚊に火をさしたが、胃の痛みわ楽しいので、
@@ -29,15 +29,15 @@ hiraganafuck
 
 
 -- ディレクトリ構成 --
-./helloworld.hfk				=> hiraganafuckサンプルのhelloworldプログラム
-./hiragana_bf_main.rb		=> ”ひらがな”からbrainfuckのプログラムに変換
-./bf_trans_p.yml				=> brainfuckの状態遷移表(YAML)
-./hiraganafuck_editor.rb=> hiraganafuckのソースを書くための支援ツール（中途半端な)
-./hira_trans_p.yml			=> ひらがなの状態遷移表(YAML)
-./graph_generator/			=> 状態遷移表を図として出力するスクリプト
-./brainfuck/						=> brainfuckのインタプリタ
-./transition_analyzer 	=> テキストの解析−＞状態遷移表の作成を行うスクリプト
-./lib										=> ライブラリなど
+./helloworld.hfk	=> hiraganafuckサンプルのhelloworldプログラム
+./hiragana_bf_main.rb	=> ”ひらがな”からbrainfuckのプログラムに変換
+./bf_trans_p.yml	=> brainfuckの状態遷移表(YAML)
+./hiraganafuck_editor.rb	=> hiraganafuckのソースを書くための支援ツール（中途半端な)
+./hira_trans_p.yml	=> ひらがなの状態遷移表(YAML)
+./graph_generator/	=> 状態遷移表を図として出力するスクリプト
+./brainfuck/	=> brainfuckのインタプリタ
+./transition_analyzer	=> テキストの解析−＞状態遷移表の作成を行うスクリプト
+./lib	=> ライブラリなど
 
 
 -- ソースの形式 --
