@@ -3,7 +3,7 @@ $KCODE = "UTF8"
 require "rubygems"
 require "moji"
 require 'graphviz'
-require '../hirafuck_lib.rb'
+require '../lib/hirafuck_lib.rb'
 
 data_dir = "../outputs/utf8_output" #
 

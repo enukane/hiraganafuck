@@ -1,0 +1,19 @@
+-- program name --
+hiraganafuck
+
+-- what is this? --
+hiraganafuck converts "hiragana" strings to brainfuck source codes.
+In the process, hiraganafuck uses tables of transition probabilities of "hiragana" and "brainfuck"
+As a language, converted in hiragana, we can find some tendency in the stream of hiraganas in japanese sentences.
+And this idea can be also apliable for brainfuck source code; that consisted of 8 characters.
+
+The tables of transistion probabilities shows "what characters can come next?".
+hiraganafuck uses this tables to dynamically change the bindings between "hiragana character" and "function" 
+
+(to be continued)
+
+-- dedication --
+I would particulary thank @go_vm who gave me a basic idea of this hiraganafuck and @oza_x86, 
+helped me almostly paifull but funny writting of sample hello world source code.
+And also thank colleague of softlab..
+
