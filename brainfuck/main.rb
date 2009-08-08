@@ -1,4 +1,4 @@
-require "brainfuck"
+require "brainfuck/brainfuck"
 
 
 bfp = BrainFuck.new(ARGV.shift)

@@ -1,5 +1,5 @@
-require "hirafuck_lib"
-require "hiragana_bf_sequencer"
+require "lib/hirafuck_lib"
+require "lib/hiragana_bf_sequencer"
 
 
 class HiraganaBrainfuckConverter

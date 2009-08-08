@@ -1,4 +1,4 @@
-require "hirafuck_lib.rb"
+require "lib/hirafuck_lib.rb"
 require "rubygems"
 
 class HiraganaBrainfuckSequencer

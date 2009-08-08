@@ -1,4 +1,4 @@
-require "brainfuckproc"
+require "brainfuck/brainfuckproc"
 require "../lib/dprint.rb"
 
 class BrainFuck
