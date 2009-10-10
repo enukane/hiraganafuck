@@ -1,5 +1,6 @@
 require "lib/hirafuck_lib"
 require "lib/hiragana_bf_sequencer"
+require "lib/dprint"
 
 
 class HiraganaBrainfuckConverter
@@ -37,7 +38,7 @@ class HiraganaBrainfuckConverter
 			next_function = @hb_seq.next_function(current_char, current_function, next_char)
 
 			if next_function == "+" then
-				p "#{source_array[n]} -> #{source_array[n+1]} : +"
+				dprint "#{source_array[n]} -> #{source_array[n+1]} : +"
 			end
 
 			
